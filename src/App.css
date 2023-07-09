@@ -1,0 +1,50 @@
+body {
+    width: 60%;
+    margin: auto;
+    list-style: none;
+}
+
+.nav {
+    overflow: hidden;
+    padding: 21px 28px 30px;
+}
+
+.title-name {
+    /*neumorphism*/
+    padding: 20px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #222225, #1d1d20);
+    box-shadow: 11px 11px 22px #0e0e0f,
+    -11px -11px 22px #323237;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nav-links li {
+    float: right;
+    padding: 27px 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nav-links li a {
+    padding: 20px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #222225, #1d1d20);
+    box-shadow: 11px 11px 22px #0e0e0f,
+    -11px -11px 22px #323237;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+#github {
+    vertical-align: text-top;
+    padding-right: 10px;
+}
+
+#coffee {
+    vertical-align: text-top;
+}
